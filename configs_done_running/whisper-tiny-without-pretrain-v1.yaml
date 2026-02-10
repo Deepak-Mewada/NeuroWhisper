@@ -1,0 +1,16 @@
+DATA_FOLDER: "/home/deepak/Documents/Deepak/Students/Susmit_23CS60R75/Sleep_Data/"
+SOURCE_DATA_FOLDER: "/home/deepak/Documents/Deepak/Students/Susmit_23CS60R75/Sleep_Data/SleepSource/"
+LEADERBOARD_TARGET_DATA_FOLDER: "/home/deepak/Documents/Deepak/Students/Susmit_23CS60R75/Sleep_Data/LeaderboardSleep/sleep_target/"
+LEADERBOARD_TEST_DATA_FOLDER: "/home/deepak/Documents/Deepak/Students/Susmit_23CS60R75/Sleep_Data/LeaderboardSleep/testing/"
+FINAL_TARGET_DATA_FOLDER: "/home/deepak/Documents/Deepak/Students/Susmit_23CS60R75/Sleep_Data/finalSleep/sleep_target/"
+FINAL_TEST_DATA_FOLDER: "/home/deepak/Documents/Deepak/Students/Susmit_23CS60R75/Sleep_Data/finalSleep/testing/"
+LB_TEST_LABELS_FILE: "/home/deepak/Documents/Deepak/Students/Susmit_23CS60R75/Sleep_Data/LeaderboardSleep/leaderboardOriginal.npy"
+FN_TEST_LABELS_FILE: "/home/deepak/Documents/Deepak/Students/Susmit_23CS60R75/Sleep_Data/finalSleep/FinalOriginal.npy"
+batch_size: 16
+num_classes: 6
+num_epochs: 7
+patience: 3
+model_type: "whisper"
+run_name: "Whisper_tiny_without_pretrain_v1"
+whisper_variant: "tiny"
+pretrained: False
