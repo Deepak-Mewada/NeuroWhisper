@@ -1,0 +1,58 @@
+# Outputs / results
+outputs/
+output.zip
+modelOnHMC-testOnPhysionet/
+
+# Models / checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Audio / media
+*.wav
+*.mp3
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Whisper / ML large files
+models/
+checkpoints/
+data/
+datasets/
+outputs/
+
+# Model & binary files
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.model
+
+# Audio / video (usually large)
+*.wav
+*.mp3
+*.mp4
+
+# Logs
+*.log
+outputs/
+output.zip
+modelOnHMC-testOnPhysionet/
+*.pt
+*.pth
+*.ckpt
+__pycache__/
+.ipynb_checkpoints/
